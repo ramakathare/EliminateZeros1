@@ -1139,7 +1139,7 @@
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
-		<row><td>INSTALLDIR</td><td>TT_CUSTOM_EXCEL_ADD_IN</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>INSTALLDIR</td><td>TT_CUSTOM_EXCEL_ADD_IN1</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>ISCommonFilesFolder</td><td>CommonFilesFolder</td><td>Instal~1|InstallShield</td><td/><td>0</td><td/></row>
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
 		<row><td>ISMyProductDir</td><td>ISMyCompanyDir</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
@@ -1163,6 +1163,8 @@
 		<row><td>SystemFolder</td><td>TARGETDIR</td><td>.:System32</td><td/><td>0</td><td/></row>
 		<row><td>TARGETDIR</td><td/><td>SourceDir</td><td/><td>0</td><td/></row>
 		<row><td>TT_CUSTOM_EXCEL_ADD_IN</td><td>T_T_USER</td><td>TTCUST~1|TT Custom Excel Add-In</td><td/><td>0</td><td/></row>
+		<row><td>TT_CUSTOM_EXCEL_ADD_IN1</td><td>TT_USER</td><td>TTCUST~1|TT Custom Excel Add-In</td><td/><td>0</td><td/></row>
+		<row><td>TT_USER</td><td>ProgramFilesFolder</td><td>TTUSER~1|TT User</td><td/><td>0</td><td/></row>
 		<row><td>T_T_USER</td><td>ProgramFilesFolder</td><td>T_TUSE~1|T&amp;T User</td><td/><td>0</td><td/></row>
 		<row><td>TempFolder</td><td>TARGETDIR</td><td>.:Temp</td><td/><td>0</td><td/></row>
 		<row><td>TemplateFolder</td><td>TARGETDIR</td><td>.:ShellNew</td><td/><td>0</td><td/></row>
@@ -1896,6 +1898,7 @@
 		<col def="S255">Data</col>
 		<row><td>PROJECT_ASSISTANT_DEFAULT_FEATURE</td><td>AlwaysInstall</td></row>
 		<row><td>PROJECT_ASSISTANT_FEATURES</td><td>NonSelectable</td></row>
+		<row><td>RegistryPageEnabled</td><td>Yes</td></row>
 	</table>
 
 	<table name="ISBillBoard">
@@ -2643,7 +2646,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>T&amp;T User</td><td>0</td><td/><td>-626824338</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>TT User</td><td>0</td><td/><td>-626846545</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-626808402</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-626808402</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION40FULL</td><td>1033</td><td>Microsoft .NET Framework 4.0 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>-626820658</td></row>
@@ -3744,8 +3747,8 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>-626808402</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-626808402</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-626808402</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.T&amp;TUser.com</td><td>0</td><td/><td>-626824338</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>T&amp;T User</td><td>0</td><td/><td>-626824338</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.TTUser.com</td><td>0</td><td/><td>-626846545</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>TT User</td><td>0</td><td/><td>-626846545</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-626808402</td></row>
 	</table>
 
@@ -3986,7 +3989,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{D5A1DB1C-ADF9-42AD-9A97-5BC424EFF6B8}</td></row>
 		<row><td>ISUSSignature</td><td>{40BF3267-21CE-4401-9301-EE6C4AC7B788}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewObjects,viewProject</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewObjects,viewProject,viewRegistry,viewISToday</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4428,6 +4431,10 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S0">Value</col>
 		<col def="s72">Component_</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>_1BD08F6A8E54EFA2B72795FB8D1448C0</td><td>1</td><td>Software\Microsoft\Office\Excel\Addins\EliminateZeros1</td><td>FriendlyName</td><td>EliminateZeros1</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_82D265154C13AE6A4983F07E59BF4127</td><td>1</td><td>Software\Microsoft\Office\Excel\Addins\EliminateZeros1</td><td>Description</td><td>EliminateZeros1</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_AAA7A4A14CA0A168820CAE7693BC642B</td><td>1</td><td>Software\Microsoft\Office\Excel\Addins\EliminateZeros1</td><td>Manifest</td><td>file:///[INSTALLDIR]EliminateZeros1.vsto|vstolocal</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_CB563E663A8742F2C1CBA47572F30F9B</td><td>1</td><td>Software\Microsoft\Office\Excel\Addins\EliminateZeros1</td><td>LoadBehavior</td><td>#3</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 	</table>
 
 	<table name="RemoveFile">
