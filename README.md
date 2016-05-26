@@ -1,0 +1,3 @@
+# EliminateZeros1
+
+This is an office add-on that eliminates leading zeros from a column. More description to follow...
